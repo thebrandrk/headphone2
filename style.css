@@ -1,0 +1,656 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Fredoka';
+    
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left bottom, #ffffff,#26d7ee);
+}
+
+img{
+    position: absolute;
+    width: 400px;
+    right: 140px;
+    top: 120px;
+   
+}
+
+#text{
+    position: absolute;
+    top: 25%;
+    left: 90px;
+
+}
+
+#text h1{
+    font-size: 70px;
+}
+
+#nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 20px;
+}
+
+#brand i{
+    font-size: 20px;
+}
+
+#brand{
+    position: relative;
+    margin-left: 40px;
+    display: flex;
+}
+
+#brand h1{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#menu a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 90px;
+    font-weight: 500;
+    color: black;
+}
+
+#text h1{
+    font-weight: 300;
+}
+
+#text span{
+    font-weight: 600;
+}
+
+#text2{
+    display: flex;
+    margin-top: 60px;
+}
+
+#button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    border-radius: 35px;
+    height: 30px;
+    background-color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+#button2{
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    border-radius: 35px;
+    height: 30px;
+    background-color: #ffffffa1;
+    font-size: 13px;
+   
+}
+
+.ri-menu-fold-line{
+    position: absolute;
+    right: 80px;
+    font-weight: 700;
+    top: 22px;
+    
+    
+}
+
+#text p{
+    font-family: product sans;
+    color: #fff0f0;
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+#main2{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #ffffff,#26d7ee);
+
+}
+
+#text1{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+#text1 h3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#text1 h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#main2 #text2{
+    position: absolute;
+    top: 50%;
+}
+
+#text2 h5{
+    position: absolute;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#text2 p{
+    margin-top: 38px;
+    margin-left: 40px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#main2 #img1{
+    position: absolute;
+    top: 150px;
+    right: 90px;
+    width: 35%;
+    height: 65%;
+    background-image: url(https://blogs.sap.com/wp-content/uploads/2019/03/image1.jpg);
+    background-position: center;
+    background-size: covera;
+    border-top-right-radius: 70px;
+}
+
+#main3{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left bottom , #ffffff,#26d7ee);
+
+}
+
+#main3 #text{
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+
+#main3 #text h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#main3 #text h5{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+
+#main3 #img2{
+    position: absolute;
+    top: 150px;
+    right: 90px;
+    width: 35%;
+    height: 65%;
+    background-image: url(https://cache.careers360.mobi/media/presets/860X430/article_images/2020/6/16/B-Tech_in-Computer-Science.webp);
+    background-position: center;
+    background-size: covera;
+    border-top-right-radius: 70px;
+}
+
+
+#main4{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left top  , #ffffff,#26d7ee);    
+}
+
+#elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 60%;
+}
+
+
+#main4 h1{
+   position: absolute;
+    font-size: 35px;
+    top: 50px;
+}
+
+
+#main4 #button1{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border-radius: 35px;
+    height: 50px;
+    background-color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    
+}
+
+#one{
+    position: relative;
+    width: 20%;
+    height: 85%;
+    background-color: #ffffff;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+#two{
+    position: relative;
+    width: 20%;
+    height: 85%;
+    background-color: #ffffff;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+#three{
+    position: relative;
+    width: 20%;
+    height: 85%;
+    background-color: #ffffff;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+#one #squar{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1616781679105-e91519b1e1b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 15%;
+
+}
+
+#one #text1{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    text-align: center ;
+}
+
+#one h5{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+#two  #squar1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1620283085439-39620a1e21c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 15%;
+
+}
+
+#two #text2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    text-align: center ;
+}
+
+#three #squar2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1610438250910-01cb769c1334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 15%;
+
+}
+
+#two p{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-size: 16px;
+    font-weight: 300;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    text-align: center ;
+    
+}
+
+#three #text3{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    text-align: center ;
+}
+
+#text3 h5{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#three h2{
+    font-size: 30px;
+}
+
+#text2 h2{
+    font-size: 30px;
+
+}
+#one h2{
+    font-size: 30px;
+}
+
+#main5{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left bottom , #ffffff,#26d7ee);    
+}
+
+#element{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    height: 70%;
+    top: 20px;
+    /* background-color: rgba(0, 0, 0, 0.377); */
+
+}
+
+#element #cont {
+     position: absolute;
+     top: 45%;
+     font-size: 25px;
+     font-weight: 300;
+     /* background-color: #26d7ee; */
+    
+}
+
+#element #text1{
+    display: flex;
+    position: absolute;
+    right: 600px;
+    left: 700px;
+    /* background-color: rgb(197, 30, 30); */
+}
+
+#text1 h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 200px;
+}
+
+#text1 p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#main5 h2{
+    position: absolute;
+    bottom: 100px;
+}
+
+@media screen and (max-width:600px) {
+    #all{
+        width: 100vw;
+        height: 100vh;
+    }
+    #main{
+        width: 100vw;
+        height: 100vh;
+    }
+    #main img{
+    width: 52vw;
+    position: absolute;
+    right: 25vw;
+    top: 16vh;
+    }
+
+    #main #menu a {
+        display: none;
+    }
+#brand i {
+    font-size: 4vh;
+    margin-left: -5vh;
+}
+
+#main #nav{
+    padding: 5vw 5vw;
+}
+.ri-menu-fold-line {
+    right: 8vw;
+    top: 3vh;
+}
+#brand h1{
+    font-size: 3vh;
+}
+#main #text h1 {
+    font-size: 6vw;
+}
+#main #text {
+    /* position: fixed; */
+    top: 110vw;
+    left: 10vw;
+}
+#main #text p {
+    font-size: 3.5vw;
+    font-family: 'Fredoka';
+    font-weight: 400; 
+    margin-top: 3vh;
+    margin-right: 10vw;
+    color: rgba(0, 0, 0, 0.644);
+}
+#main #button1{
+    width: 16vh;
+}
+#main #button2{
+    width: 16vh;
+}
+#main #text2{
+    margin-left: 1vw;
+}
+
+
+#main2 #text1 {
+    position: absolute;
+    width: 50vw;
+    top: 76vw;
+    left: 8vw;
+}
+#main2 #text1 h3 {
+    margin-top: 2vw;
+    font-size: 3vw;
+    font-weight: 600;
+}
+#main2 #text1 h1 {
+    /* margin-top: 12vw; */
+    font-size: 4vw;
+    /* font-weight: 500; */
+}
+#main2 #text2 p {
+    margin-top: 7vw;
+    margin-left: 9vw;
+    font-weight: 600;
+    font-size: 3vw;
+    line-height: 4vw;
+}
+#main2 #text2 {
+    position: absolute;
+    top: 112vw;
+}
+#main2 #text2 h5 {
+    /* position: absolute; */
+    margin-left: 9vw;
+    font-size: 4vw;
+    font-weight: 600;
+}
+#main2 #img1 {
+    position: absolute;
+    top: -18vw;
+    right: 21vw;
+    width: 56vw;
+    height: 75vw;
+    background-image: url(https://blogs.sap.com/wp-content/uploads/2019/03/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 70px;
+}
+
+#main3 #img2 {
+    position: absolute;
+    top: -38vw;
+    right: 26vw;
+    width: 56vw;
+    height: 75vw;
+    background-image: url(https://cache.careers360.mobi/media/presets/860X430/article_images/2020/6/16/B-Tech_in-Computer-Science.webp);
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 70px;
+}
+#main3 #text h1 {
+    font-size: 8vw;
+    font-weight: 500;
+}
+#main3 #text {
+    /* position: absolute; */
+    top: 61vw;
+    left: 7vw;
+}
+#main3 #text h5 {
+    font-size: 4vw;
+    font-weight: 400;
+    margin-top: 7vw;
+    line-height: 8vw;
+}
+
+#main4{
+    height: 300vh;
+}
+#main4 h1 {
+    /* position: absolute; */
+    font-size: 7vw;
+    top: -85vw;
+}
+#main4 #elem{
+    flex-direction: column;
+    height: 390vw;
+    margin-top: -421vw;
+}
+#main4 #one{
+    width: 76vw;
+    height: 107vw;
+}
+#main4 #two{
+    width: 76vw;
+    height: 107vw;
+}
+#main4 #button1{
+    top: 320vw;
+}
+
+#main4 #three{
+    width: 76vw;
+    height: 107vw;
+}
+
+
+#main5{
+    width: 0vw;
+    height: 0vh;
+}
+
+#main5 #cont h1{
+    position: absolute;
+    font-size: 7vw;
+    top: -284vw;
+}
+
+#main5 #text1{
+    width: 50vw;
+    flex-direction: column;
+}
+#main5 #element #text1{
+    left: 10vw;
+}
+#main5 #address{
+   
+    margin-top: -254vw;
+    /* margin-right: 5vw; */
+}
+
+#main5 #social{
+    margin-left: 0vw;
+    margin-top: 25vw;
+}
+
+#main5 #cont{
+    width: 60vw;
+    margin-left: 26vw;
+} 
+
+#main5 h2{
+    position: absolute;
+    top: -100vw;
+    margin-left: 134vw;
+}
+}
